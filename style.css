@@ -4,7 +4,7 @@ body{
      background-color: rgb(34, 34, 33);
      font-family: Garamond;
     }
- img{
+ #lewa img{
     width: 50%;
     float: left;
      }
@@ -20,4 +20,18 @@ body{
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+    #stopka{
+         background-color: #313131;
+         width: 100%;
+         font-weight: bold;
+         float: right;
+         margin: 0px;
+         text-align: center;
+         vertical-align: middle;
+ 
+    }
+    #stopka img{
+         width: 32px;
+         height: 32px;
     }
