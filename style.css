@@ -31,10 +31,11 @@ body{
          vertical-align: middle;
  
     }
+    #stopka a{
+     vertical-align:middle;
+    }
+    
     #stopka img{
          width: 32px;
          height: 32px;
-    }
-    #stopka a{
-     vertical-align:middle;
     }
