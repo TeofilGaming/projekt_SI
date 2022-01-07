@@ -35,3 +35,6 @@ body{
          width: 32px;
          height: 32px;
     }
+    #stopka a{
+     vertical-align:middle;
+    }
