@@ -15,7 +15,7 @@
     $x = "SELECT * FROM liga";
 	$result = mysqli_query($db, $x);
     while ($row = mysqli_fetch_array($result)) {
-        print("Nazwa:".$row['nazwa_ligi'] ." "."Kraj pochodzenia:". $row['kraj'] ." "."liczba graczy:". $row['Liczba_druzyn']."<br>");}
+        print("Nazwa:".$row['nazwa_ligi'] ." "."Kraj pochodzenia:". $row['kraj'] ." "."liczba graczy:". $row['liczba_druzyn']."<br>");}
 };
     liga()?></p></div>
     <div id="stopka"><a href="https://www.facebook.com/profile.php?id=100028407642525"> <img src="ja.png"></a>Tymofii Ferenets 2pT grupa: hiszpańska</div>
