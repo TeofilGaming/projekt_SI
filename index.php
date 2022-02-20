@@ -9,7 +9,23 @@
 </head>
 <body>
     <div type="text-effect"><h2>Strona o piłce nożnej</h2></div>       
-    <div id="lewa"><img src="strona.png" ></div>
+    <div id="lewa">
+        <div id="ramka">
+            <img src="strona.png" >
+            <div id="slajdy">
+                <img id="slide1" src="strona.png" alt="przykladowa grafika" />
+                <img id="slide2" src="xd.png" alt="przykladowa grafika" />
+                <img id="slide3" src="ja.png" alt="przykladowa grafika" />
+                <img id="slide4" src="ghoul_sss_rank.jpg" alt="przykladowa grafika" />
+            </div>
+        </div>
+        <div id="nawigacja">
+            <a href="#slide1">1</a>
+            <a href="#slide2">2</a>
+            <a href="#slide3">3</a>
+            <a href="#slide4">4</a>
+        </div>
+    </div>
     <div id="prawa"><p><?PHP function liga(){
 	$db = mysqli_connect("localhost", "root", "", "liga_database");
     $x = "SELECT * FROM liga";

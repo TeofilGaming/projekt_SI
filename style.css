@@ -4,10 +4,6 @@ body{
      background-color: rgb(34, 34, 33);
      font-family: Garamond;
     }
- #lewa img{
-    width: 50%;
-    float: left;
-     }
 #prawa{
      width: 50%;
     float: left;
@@ -39,3 +35,54 @@ body{
          width: 32px;
          height: 32px;
     }
+    #lewa {
+     margin: 50px auto;
+     width: 600px;
+    }
+     
+    #ramka {
+     height: 400px;
+     overflow: hidden;
+     border: 2px solid #72004A;
+    }
+     
+    #slajdy {
+     height: 400px;
+     overflow: hidden;
+     position: relative;
+    }
+    #nawigacja {
+     margin: 5px 0 0 0;
+     text-align: center;
+     z-index: 10;
+    }
+     
+    #nawigacja a {
+     display: inline-block; /*numery slajdów będą obok siebie*/
+     text-decoration: none;
+     background: #72004A;
+     border-radius: 50%; /*numery slajdów będą w kółeczkach się w kółeczkach */
+     padding: 2px 6px;
+     color: #FFFFFF;
+     /*prosta animacja, przy najechaniu myszką nad konkretny numr slajdu*/
+     -webkit-transition: all linear .1s;
+     -moz-transition: all linear .1s;
+     -o-transition: all linear .1s;
+     transition: all linear .1s;
+    }
+     
+    #nawigacja a:hover {
+     background: #D258A7;
+    }
+    #slajdy img {
+     position: absolute;
+     top: 0;
+     left: -600px;
+     z-index: 1;
+     opacity: 0;
+     /* animacja */
+     -webkit-transition: all ease-out .7s;
+     -moz-transition: all ease-out .7s;
+     -o-transition: all ease-out .7s;
+     transition: all ease-out .7s;
+   }
