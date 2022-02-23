@@ -6,7 +6,7 @@ body{
     }
 #prawa{
      width: 50%;
-    float: left;
+     float: left;
     }
     h2{
         font-size: 20;
@@ -36,8 +36,9 @@ body{
          height: 32px;
     }
     #lewa {
+     float: left;
      margin: 50px auto;
-     width: 600px;
+     width: 50%;
     }
      
     #ramka {
@@ -57,19 +58,7 @@ body{
      z-index: 10;
     }
      
-    #nawigacja a {
-     display: inline-block; /*numery slajdów będą obok siebie*/
-     text-decoration: none;
-     background: #72004A;
-     border-radius: 50%; /*numery slajdów będą w kółeczkach się w kółeczkach */
-     padding: 2px 6px;
-     color: #FFFFFF;
-     /*prosta animacja, przy najechaniu myszką nad konkretny numr slajdu*/
-     -webkit-transition: all linear .1s;
-     -moz-transition: all linear .1s;
-     -o-transition: all linear .1s;
-     transition: all linear .1s;
-    }
+    
      
     #nawigacja a:hover {
      background: #D258A7;
