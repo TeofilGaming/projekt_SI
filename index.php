@@ -8,7 +8,10 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div type="text-effect"><h2>Strona o piłce nożnej</h2></div>       
+    <div type="text-effect"><h2>Strona o piłce nożnej</h2></div>  
+    <div id="naw">
+        <li><h2><a href="">About me<a></h2></li>
+    </div>     
     <div id="lewa">
         <div id="ramka">
             <img src="liga1.png" >
