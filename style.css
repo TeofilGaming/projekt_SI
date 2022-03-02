@@ -8,6 +8,7 @@ body{
 #prawa{
      width: 50%;
      float: left;
+     text-align: left;
     }
     #nag{
         font-size: 20;
@@ -138,3 +139,21 @@ img{
 #pojemnik{
      margin: 1%;
    }
+#aboutme{
+        text-align: center;
+        margin: 5%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+   }
+#ja{
+     height: 500px;
+     width: 350px;
+}
+#left {
+     float: left;
+    }
+#right{
+     width: 50%;
+     float: left;
+     text-align: left;
+}
