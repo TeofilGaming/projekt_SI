@@ -8,37 +8,42 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div type="text-effect"><h2>Strona o piłce nożnej</h2></div>  
+    <div id="nag" type="text-effect"><h2>Strona o piłce nożnej</h2></div>
     <div id="naw">
-        <li><h2><a href="">About me<a></h2></li>
-    </div>     
-    <div id="lewa">
-        <div id="ramka">
-            <img src="liga1.png" >
-            <div id="slajdy">
-                <img id="slide1" src="liga1.png" alt="przykladowa grafika" />
-                <img id="slide2" src="liga2.png" alt="przykladowa grafika" />
-                <img id="slide3" src="liga3.png" alt="przykladowa grafika" />
-                <img id="slide4" src="liga4.png" alt="przykladowa grafika" />
+        <ul class="menu">
+            <li><a href="index.php">Strona Główna<a></li>
+            <li><a href="aboutme.html">About me<a></li>
+        </ul>
+    </div> 
+    <div id="pojemnik">           
+        <div id="lewa">
+            <div id="ramka">
+                <img src="liga1.png" >
+                <div id="slajdy">
+                    <img id="slide1" src="liga1.png" alt="przykladowa grafika" />
+                    <img id="slide2" src="liga2.png" alt="przykladowa grafika" />
+                    <img id="slide3" src="liga3.png" alt="przykladowa grafika" />
+                    <img id="slide4" src="liga4.png" alt="przykladowa grafika" />
+                </div>
+            </div>
+            <div id="nawigacja">
+                <a href="#slide1">1</a>
+                <a href="#slide2">2</a>
+                <a href="#slide3">3</a>
+                <a href="#slide4">4</a>
             </div>
         </div>
-        <div id="nawigacja">
-            <a href="#slide1">1</a>
-            <a href="#slide2">2</a>
-            <a href="#slide3">3</a>
-            <a href="#slide4">4</a>
-        </div>
-    </div>
-    <div id="prawa"><p><?PHP
-	$db = mysqli_connect("localhost", "root", "", "liga_database");
-    $x = "SELECT * FROM liga";
-	$result = mysqli_query($db, $x);
-    while ($row = mysqli_fetch_array($result)) {
+        <div id="prawa"><p><?PHP
+	    $db = mysqli_connect("localhost", "root", "", "liga_database");
+        $x = "SELECT * FROM liga";
+	    $result = mysqli_query($db, $x);
+        while ($row = mysqli_fetch_array($result)) {
         print("Nazwa:".$row['nazwa_ligi'] ." "."Kraj pochodzenia:". $row['kraj'] ." "."liczba graczy:". $row['liczba_druzyn']."<br>");}
-    mysqli_close($db);
+        mysqli_close($db);
 
 
-    ?></p></div>
+        ?></p></div>
+    </div>
     <div id="stopka"><a href="https://www.facebook.com/profile.php?id=100028407642525"> <img src="ja.png"></a>Tymofii Ferenets 2pT grupa: hiszpańska</div>
 </body>
 </html>
