@@ -16,12 +16,11 @@
     </a><div id="pojemnik"><a>           
         </a><div id="lewa"><a>
             <div id="ramka">
-                <img src="liga1.png">
                 <div id="slajdy">
-                    <img id="slide1" src="liga1.png" alt="przykladowa grafika">
-                    <img id="slide2" src="liga2.png" alt="przykladowa grafika">
-                    <img id="slide3" src="liga3.png" alt="przykladowa grafika">
-                    <img id="slide4" src="liga4.png" alt="przykladowa grafika">
+                        <img id="slide1" src="liga1.png" alt="przykladowa grafika">
+                        <img id="slide2" src="liga2.png" alt="przykladowa grafika">
+                        <img id="slide3" src="liga3.png" alt="przykladowa grafika">
+                        <img id="slide4" src="liga4.png" alt="przykladowa grafika">
                 </div>
             </div>
             </a><div id="nawigacja"><a href="#slide1">1</a>
